@@ -20,8 +20,8 @@ const RecentActivity = ({ className, ...props }) => {
       setError(null);
       const data = await getRecentActivities();
       setActivities(data);
-    } catch (err) {
-      setError("Failed to load recent activities");
+} catch (err) {
+      setError("최근 활동을 불러오는데 실패했습니다");
     } finally {
       setLoading(false);
     }
@@ -39,8 +39,8 @@ const RecentActivity = ({ className, ...props }) => {
     <Card className={cn("", className)} {...props}>
       <CardHeader className="flex flex-row items-center justify-between">
         <CardTitle className="flex items-center space-x-2">
-          <ApperIcon name="Activity" size={20} className="text-primary" />
-          <span>Recent Activity</span>
+<ApperIcon name="Activity" size={20} className="text-primary" />
+          <span>최근 활동</span>
         </CardTitle>
         <Button variant="ghost" size="sm">
           <ApperIcon name="MoreHorizontal" size={16} />
@@ -54,7 +54,7 @@ const RecentActivity = ({ className, ...props }) => {
         </div>
         <div className="p-4 border-t border-gray-100">
           <Button variant="ghost" className="w-full">
-            View All Activity
+모든 활동 보기
             <ApperIcon name="ArrowRight" size={16} className="ml-2" />
           </Button>
         </div>

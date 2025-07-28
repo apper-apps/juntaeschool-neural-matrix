@@ -1,134 +1,134 @@
 [
   {
     "Id": 1,
-    "title": "Content Creation Fundamentals",
-    "description": "Learn the essential skills for creating engaging and viral content across all social media platforms. Master storytelling, visual design, and audience engagement.",
-    "instructor": "Sarah Martinez",
+    "title": "콘텐츠 제작 기초",
+    "description": "모든 소셜 미디어 플랫폼에서 매력적이고 바이럴한 콘텐츠를 만드는 필수 기술을 배워보세요. 스토리텔링, 비주얼 디자인, 그리고 오디언스 참여를 마스터하세요.",
+    "instructor": "김사라",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 120,
     "lessonsCount": 12,
-    "category": "Fundamentals",
-    "difficulty": "Beginner"
+    "category": "기초",
+    "difficulty": "초급"
   },
   {
     "Id": 2,
-    "title": "Advanced TikTok Strategies",
-    "description": "Dive deep into TikTok's algorithm and discover proven strategies for creating viral content that resonates with your target audience.",
-    "instructor": "Jake Thompson",
+    "title": "고급 틱톡 전략",
+    "description": "틱톡 알고리즘을 깊이 파고들어 타겟 오디언스와 공감하는 바이럴 콘텐츠를 만드는 검증된 전략을 발견하세요.",
+    "instructor": "박제이크",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 90,
     "lessonsCount": 8,
-    "category": "TikTok",
-    "difficulty": "Advanced"
+    "category": "틱톡",
+    "difficulty": "고급"
   },
   {
     "Id": 3,
-    "title": "Instagram Growth Hacks",
-    "description": "Unlock the secrets to explosive Instagram growth with proven tactics for Reels, Stories, and feed content that drives engagement.",
-    "instructor": "Emma Chen",
+    "title": "인스타그램 성장 해킹",
+    "description": "릴스, 스토리, 그리고 피드 콘텐츠로 참여를 이끌어내는 검증된 전술로 폭발적인 인스타그램 성장의 비밀을 풀어보세요.",
+    "instructor": "최엠마",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 105,
     "lessonsCount": 10,
-    "category": "Instagram",
-    "difficulty": "Intermediate"
+    "category": "인스타그램",
+    "difficulty": "중급"
   },
   {
     "Id": 4,
-    "title": "YouTube Content Mastery",
-    "description": "Build a successful YouTube channel from scratch with expert techniques for scripting, filming, editing, and optimizing for the algorithm.",
-    "instructor": "David Rodriguez",
+    "title": "유튜브 콘텐츠 마스터",
+    "description": "스크립팅, 촬영, 편집, 그리고 알고리즘 최적화를 위한 전문 기술로 처음부터 성공적인 유튜브 채널을 구축하세요.",
+    "instructor": "이데이비드",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 180,
     "lessonsCount": 15,
-    "category": "YouTube",
-    "difficulty": "Intermediate"
+    "category": "유튜브",
+    "difficulty": "중급"
   },
   {
     "Id": 5,
-    "title": "Personal Branding Essentials",
-    "description": "Develop a powerful personal brand that stands out in the crowded digital space and attracts your ideal audience consistently.",
-    "instructor": "Lisa Park",
+    "title": "개인 브랜딩 핵심",
+    "description": "붐비는 디지털 공간에서 돋보이고 이상적인 오디언스를 지속적으로 끌어들이는 강력한 개인 브랜드를 개발하세요.",
+    "instructor": "박리사",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 75,
     "lessonsCount": 6,
-    "category": "Branding",
-    "difficulty": "Beginner"
+    "category": "브랜딩",
+    "difficulty": "초급"
   },
   {
     "Id": 6,
-    "title": "Monetization Strategies",
-    "description": "Turn your content creation passion into a profitable business with multiple revenue streams and sustainable monetization methods.",
-    "instructor": "Michael Johnson",
+    "title": "수익화 전략",
+    "description": "다양한 수익원과 지속 가능한 수익화 방법으로 콘텐츠 제작 열정을 수익성 있는 비즈니스로 전환하세요.",
+    "instructor": "정마이클",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 135,
     "lessonsCount": 11,
-    "category": "Business",
-    "difficulty": "Advanced"
+    "category": "비즈니스",
+    "difficulty": "고급"
   },
   {
     "Id": 7,
-    "title": "Visual Storytelling",
-    "description": "Master the art of telling compelling stories through visuals, graphics, and video content that captivates and converts your audience.",
-    "instructor": "Sophia Williams",
+    "title": "비주얼 스토리텔링",
+    "description": "오디언스를 사로잡고 전환시키는 비주얼, 그래픽, 그리고 비디오 콘텐츠로 설득력 있는 스토리를 전하는 기술을 마스터하세요.",
+    "instructor": "윤소피아",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 95,
     "lessonsCount": 9,
-    "category": "Design",
-    "difficulty": "Intermediate"
+    "category": "디자인",
+    "difficulty": "중급"
   },
   {
     "Id": 8,
-    "title": "Community Building",
-    "description": "Learn how to build and nurture an engaged community around your brand that becomes your most powerful marketing asset.",
-    "instructor": "Alex Rivera",
+    "title": "커뮤니티 구축",
+    "description": "브랜드를 중심으로 참여도 높은 커뮤니티를 구축하고 육성하여 가장 강력한 마케팅 자산으로 만드는 방법을 배우세요.",
+    "instructor": "강알렉스",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 110,
     "lessonsCount": 8,
-    "category": "Community",
-    "difficulty": "Intermediate"
+    "category": "커뮤니티",
+    "difficulty": "중급"
   },
   {
     "Id": 9,
-    "title": "Analytics & Growth Tracking",
-    "description": "Understand your metrics and use data-driven insights to optimize your content strategy and accelerate your growth.",
-    "instructor": "Jennifer Lee",
+    "title": "분석 및 성장 추적",
+    "description": "지표를 이해하고 데이터 기반 인사이트를 활용하여 콘텐츠 전략을 최적화하고 성장을 가속화하세요.",
+    "instructor": "김제니퍼",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 85,
     "lessonsCount": 7,
-    "category": "Analytics",
-    "difficulty": "Beginner"
+    "category": "분석",
+    "difficulty": "초급"
   },
   {
     "Id": 10,
-    "title": "Collaboration & Partnerships",
-    "description": "Discover how to identify, approach, and successfully collaborate with other creators and brands to expand your reach.",
-    "instructor": "Ryan Cooper",
+    "title": "협업 및 파트너십",
+    "description": "다른 크리에이터 및 브랜드와 성공적으로 협업하여 도달 범위를 확장하는 방법을 식별하고 접근하는 방법을 발견하세요.",
+    "instructor": "류라이언",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 100,
     "lessonsCount": 8,
-    "category": "Partnerships",
-    "difficulty": "Advanced"
+    "category": "파트너십",
+    "difficulty": "고급"
   },
   {
     "Id": 11,
-    "title": "Content Planning & Strategy",
-    "description": "Develop a systematic approach to content planning that ensures consistent, high-quality output that aligns with your goals.",
-    "instructor": "Maya Patel",
+    "title": "콘텐츠 기획 및 전략",
+    "description": "목표에 부합하는 일관되고 고품질의 결과물을 보장하는 체계적인 콘텐츠 기획 접근법을 개발하세요.",
+    "instructor": "한마야",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 90,
     "lessonsCount": 9,
-    "category": "Strategy",
-    "difficulty": "Intermediate"
+    "category": "전략",
+    "difficulty": "중급"
   },
   {
     "Id": 12,
-    "title": "Live Streaming Mastery",
-    "description": "Master the art of live streaming across platforms to build deeper connections with your audience and increase engagement.",
-    "instructor": "Chris Anderson",
+    "title": "라이브 스트리밍 마스터",
+    "description": "플랫폼 전반에서 라이브 스트리밍 기술을 마스터하여 오디언스와 더 깊은 연결을 구축하고 참여도를 높이세요.",
+    "instructor": "안크리스",
     "thumbnail": "/api/placeholder/300/200",
     "duration": 80,
     "lessonsCount": 6,
-    "category": "Live Streaming",
-    "difficulty": "Beginner"
+    "category": "라이브 스트리밍",
+    "difficulty": "초급"
   }
 ]

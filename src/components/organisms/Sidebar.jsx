@@ -4,10 +4,10 @@ import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
 
 const Sidebar = ({ className, isMobileOpen, onMobileClose }) => {
-  const navigation = [
-    { name: "Dashboard", href: "/", icon: "LayoutDashboard" },
-    { name: "Courses", href: "/courses", icon: "BookOpen" },
-    { name: "Community", href: "/community", icon: "Users" },
+const navigation = [
+    { name: "대시보드", href: "/", icon: "LayoutDashboard" },
+    { name: "코스", href: "/courses", icon: "BookOpen" },
+    { name: "커뮤니티", href: "/community", icon: "Users" },
   ];
 
   const SidebarContent = () => (
@@ -20,7 +20,7 @@ const Sidebar = ({ className, isMobileOpen, onMobileClose }) => {
           </div>
           <div>
             <h1 className="font-display text-heading-md gradient-text">JuntaeSchool</h1>
-            <p className="text-xs text-gray-600">Text Influencer Academy</p>
+<p className="text-xs text-gray-600">준태 인플루언서 아카데미</p>
           </div>
         </div>
       </div>
@@ -66,8 +66,8 @@ const Sidebar = ({ className, isMobileOpen, onMobileClose }) => {
               <ApperIcon name="Zap" size={16} className="text-gray-900" />
             </div>
             <div>
-              <p className="font-medium text-gray-900 text-sm">Upgrade to Pro</p>
-              <p className="text-xs text-gray-600">Unlock all courses</p>
+<p className="font-medium text-gray-900 text-sm">프로로 업그레이드</p>
+              <p className="text-xs text-gray-600">모든 코스 잠금 해제</p>
             </div>
           </div>
         </div>

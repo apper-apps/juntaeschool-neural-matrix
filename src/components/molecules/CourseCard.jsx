@@ -14,10 +14,13 @@ const CourseCard = ({
   ...props 
 }) => {
   const getDifficultyColor = (difficulty) => {
-    switch (difficulty?.toLowerCase()) {
-      case "beginner": return "success";
-      case "intermediate": return "warning";
-      case "advanced": return "error";
+switch (difficulty?.toLowerCase()) {
+      case "beginner":
+      case "초급": return "success";
+      case "intermediate":
+      case "중급": return "warning";
+      case "advanced":
+      case "고급": return "error";
       default: return "default";
     }
   };
@@ -36,7 +39,10 @@ const CourseCard = ({
         </div>
         <div className="absolute top-3 right-3">
           <Badge variant={getDifficultyColor(course.difficulty)}>
-            {course.difficulty}
+{course.difficulty === "Beginner" ? "초급" : 
+             course.difficulty === "Intermediate" ? "중급" : 
+             course.difficulty === "Advanced" ? "고급" : 
+             course.difficulty}
           </Badge>
         </div>
         {isCompleted && (
@@ -56,12 +62,12 @@ const CourseCard = ({
       <CardContent className="pt-0 pb-4">
         <div className="flex items-center justify-between text-body-sm text-gray-600 mb-4">
           <div className="flex items-center space-x-1">
-            <ApperIcon name="User" size={14} />
+<ApperIcon name="User" size={14} />
             <span>{course.instructor}</span>
           </div>
           <div className="flex items-center space-x-1">
             <ApperIcon name="Clock" size={14} />
-            <span>{course.duration} min</span>
+            <span>{course.duration}분</span>
           </div>
         </div>
         
@@ -79,7 +85,7 @@ const CourseCard = ({
         {progress && (
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
-              <span className="text-body-sm font-medium text-gray-700">Progress</span>
+<span className="text-body-sm font-medium text-gray-700">진행률</span>
               <span className="text-body-sm text-gray-600">{Math.round(progressPercent)}%</span>
             </div>
             <ProgressBar value={progressPercent} variant="primary" size="md" />
@@ -92,8 +98,8 @@ const CourseCard = ({
           onClick={() => onStartCourse && onStartCourse(course)}
           variant={isCompleted ? "outline" : isStarted ? "primary" : "secondary"}
           className="w-full"
-        >
-          {isCompleted ? "Review Course" : isStarted ? "Continue Learning" : "Start Course"}
+>
+          {isCompleted ? "코스 복습하기" : isStarted ? "학습 계속하기" : "코스 시작하기"}
         </Button>
       </CardFooter>
     </Card>

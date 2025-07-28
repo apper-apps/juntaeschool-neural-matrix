@@ -2,71 +2,71 @@
   {
     "Id": 1,
     "type": "course_completed",
-    "courseName": "Advanced TikTok Strategies",
+    "courseName": "고급 틱톡 전략",
     "timestamp": "2024-01-15T08:30:00Z",
-    "description": "Completed course: Advanced TikTok Strategies"
+    "description": "코스 완료: 고급 틱톡 전략"
   },
   {
     "Id": 2,
     "type": "lesson_completed",
-    "courseName": "Content Creation Fundamentals",
+    "courseName": "콘텐츠 제작 기초",
     "timestamp": "2024-01-15T07:15:00Z",
-    "description": "Finished lesson: Creating Your First Viral Video"
+    "description": "강의 완료: 첫 번째 바이럴 영상 만들기"
   },
   {
     "Id": 3,
     "type": "quiz_passed",
-    "courseName": "Visual Storytelling",
+    "courseName": "비주얼 스토리텔링",
     "timestamp": "2024-01-14T16:45:00Z",
-    "description": "Passed quiz: Color Theory and Visual Impact"
+    "description": "퀴즈 통과: 색채 이론과 시각적 임팩트"
   },
   {
     "Id": 4,
     "type": "course_started",
-    "courseName": "Instagram Growth Hacks",
+    "courseName": "인스타그램 성장 해킹",
     "timestamp": "2024-01-14T14:20:00Z",
-    "description": "Started new course: Instagram Growth Hacks"
+    "description": "새 코스 시작: 인스타그램 성장 해킹"
   },
   {
     "Id": 5,
     "type": "lesson_completed",
-    "courseName": "Personal Branding Essentials",
+    "courseName": "개인 브랜딩 핵심",
     "timestamp": "2024-01-14T11:30:00Z",
-    "description": "Completed lesson: Defining Your Brand Voice"
+    "description": "강의 완료: 브랜드 보이스 정의하기"
   },
   {
     "Id": 6,
     "type": "course_completed",
-    "courseName": "Personal Branding Essentials",
+    "courseName": "개인 브랜딩 핵심",
     "timestamp": "2024-01-13T15:00:00Z",
-    "description": "Completed course: Personal Branding Essentials"
+    "description": "코스 완료: 개인 브랜딩 핵심"
   },
   {
     "Id": 7,
     "type": "lesson_completed",
-    "courseName": "Analytics & Growth Tracking",
+    "courseName": "분석 및 성장 추적",
     "timestamp": "2024-01-13T10:45:00Z",
-    "description": "Finished lesson: Understanding Your Metrics"
+    "description": "강의 완료: 지표 이해하기"
   },
   {
     "Id": 8,
     "type": "quiz_passed",
-    "courseName": "Content Creation Fundamentals",
+    "courseName": "콘텐츠 제작 기초",
     "timestamp": "2024-01-12T17:30:00Z",
-    "description": "Passed quiz: Content Planning Strategies"
+    "description": "퀴즈 통과: 콘텐츠 기획 전략"
   },
   {
     "Id": 9,
     "type": "lesson_completed",
-    "courseName": "YouTube Content Mastery",
+    "courseName": "유튜브 콘텐츠 마스터",
     "timestamp": "2024-01-12T13:15:00Z",
-    "description": "Completed lesson: YouTube SEO Optimization"
+    "description": "강의 완료: 유튜브 SEO 최적화"
   },
   {
     "Id": 10,
     "type": "course_started",
-    "courseName": "Monetization Strategies",
+    "courseName": "수익화 전략",
     "timestamp": "2024-01-11T09:00:00Z",
-    "description": "Started new course: Monetization Strategies"
+    "description": "새 코스 시작: 수익화 전략"
   }
 ]

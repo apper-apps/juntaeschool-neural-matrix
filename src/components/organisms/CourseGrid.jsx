@@ -41,7 +41,7 @@ const CourseGrid = ({ className, ...props }) => {
   }, []);
 
   const handleStartCourse = (course) => {
-    toast.success(`Started course: ${course.title}`);
+toast.success(`코스 시작: ${course.title}`);
   };
 
   // Filter courses based on search and filters
@@ -58,14 +58,17 @@ const CourseGrid = ({ className, ...props }) => {
   const categories = [...new Set(courses.map(course => course.category))];
   const difficulties = [...new Set(courses.map(course => course.difficulty))];
 
-  const categoryOptions = [
-    { value: "", label: "All Categories" },
+const categoryOptions = [
+    { value: "", label: "모든 카테고리" },
     ...categories.map(cat => ({ value: cat, label: cat }))
   ];
 
   const difficultyOptions = [
-    { value: "", label: "All Levels" },
-    ...difficulties.map(diff => ({ value: diff, label: diff }))
+    { value: "", label: "모든 레벨" },
+    ...difficulties.map(diff => ({
+      value: diff,
+      label: diff === "Beginner" ? "초급" : diff === "Intermediate" ? "중급" : diff === "Advanced" ? "고급" : diff
+    }))
   ];
 
   if (loading) return <Loading />;
@@ -77,7 +80,7 @@ const CourseGrid = ({ className, ...props }) => {
       <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
         <div className="flex flex-col sm:flex-row gap-4 flex-1">
           <SearchBar
-            placeholder="Search courses..."
+placeholder="코스 검색..."
             onSearch={setSearchTerm}
             className="w-full sm:max-w-md"
           />
@@ -102,9 +105,9 @@ const CourseGrid = ({ className, ...props }) => {
 
       {/* Course Grid */}
       {filteredCourses.length === 0 ? (
-        <Empty 
-          message="No courses found" 
-          description="Try adjusting your search or filter criteria."
+<Empty 
+          message="코스를 찾을 수 없습니다" 
+          description="검색어나 필터 조건을 조정해보세요."
         />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

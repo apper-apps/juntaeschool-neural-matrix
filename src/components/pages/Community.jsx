@@ -1,5 +1,6 @@
 import React from "react";
 import { formatDistanceToNow } from "date-fns";
+import { ko } from "date-fns/locale";
 import ApperIcon from "@/components/ApperIcon";
 import Badge from "@/components/atoms/Badge";
 import Button from "@/components/atoms/Button";
@@ -8,92 +9,92 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/atoms/Car
 
 function Community() {
   const discussions = [
-    { 
+{ 
       id: 1, 
-      title: "Best practices for TikTok content", 
-      author: "Sarah Johnson", 
-      avatar: "https://via.placeholder.com/40x40/0046FF/FFFFFF?text=SJ", 
+      title: "틱톡 콘텐츠 베스트 프랙티스", 
+      author: "김사라", 
+      avatar: "https://via.placeholder.com/40x40/0046FF/FFFFFF?text=김사", 
       replies: 23, 
       likes: 45, 
-      category: "TikTok", 
+      category: "틱톡", 
       timestamp: new Date(Date.now() - 2 * 60 * 60 * 1000), 
       isHot: true 
     }, 
     { 
       id: 2, 
-      title: "How to create viral Instagram Reels", 
-      author: "Mike Chen", 
-      avatar: "https://via.placeholder.com/40x40/FFC82C/000000?text=MC", 
+      title: "바이럴 인스타그램 릴스 만드는 방법", 
+      author: "박마이크", 
+      avatar: "https://via.placeholder.com/40x40/FFC82C/000000?text=박마", 
       replies: 18, 
       likes: 32, 
-      category: "Instagram", 
+      category: "인스타그램", 
       timestamp: new Date(Date.now() - 5 * 60 * 60 * 1000), 
       isHot: false 
     }, 
     { 
       id: 3, 
-      title: "Monetization strategies for creators", 
-      author: "Emma Davis", 
-      avatar: "https://via.placeholder.com/40x40/00C896/FFFFFF?text=ED", 
+      title: "크리에이터를 위한 수익화 전략", 
+      author: "최엠마", 
+      avatar: "https://via.placeholder.com/40x40/00C896/FFFFFF?text=최엠", 
       replies: 34, 
       likes: 67, 
-      category: "Business", 
+      category: "비즈니스", 
       timestamp: new Date(Date.now() - 8 * 60 * 60 * 1000), 
       isHot: true 
     },
     { 
       id: 4, 
-      title: "Building authentic engagement", 
-      author: "Ryan Kim", 
-      avatar: "https://via.placeholder.com/40x40/FF6B35/FFFFFF?text=RK", 
+      title: "진정성 있는 참여도 구축하기", 
+      author: "김라이언", 
+      avatar: "https://via.placeholder.com/40x40/FF6B35/FFFFFF?text=김라", 
       replies: 12, 
       likes: 28, 
-      category: "General", 
+      category: "일반", 
       timestamp: new Date(Date.now() - 12 * 60 * 60 * 1000), 
       isHot: false 
     }
   ];
 
-  const topMembers = [
+const topMembers = [
     { 
-      name: "Alex Rodriguez", 
-      avatar: "https://via.placeholder.com/50x50/0046FF/FFFFFF?text=AR", 
+      name: "김알렉스", 
+      avatar: "https://via.placeholder.com/50x50/0046FF/FFFFFF?text=김알", 
       points: 2847, 
-      badge: "Expert Creator", 
+      badge: "전문 크리에이터", 
       posts: 45 
     }, 
     { 
-      name: "Luna Park", 
-      avatar: "https://via.placeholder.com/50x50/FFC82C/000000?text=LP", 
+      name: "박루나", 
+      avatar: "https://via.placeholder.com/50x50/FFC82C/000000?text=박루", 
       points: 2156, 
-      badge: "Community Helper", 
+      badge: "커뮤니티 헬퍼", 
       posts: 38 
     }, 
     { 
-      name: "Jordan Smith", 
-      avatar: "https://via.placeholder.com/50x50/00C896/FFFFFF?text=JS", 
+      name: "이조던", 
+      avatar: "https://via.placeholder.com/50x50/00C896/FFFFFF?text=이조", 
       points: 1923, 
-      badge: "Rising Star", 
+      badge: "떠오르는 스타", 
       posts: 29 
     }
   ];
 
-  const categories = [
-    { name: "General Discussion", count: 124, icon: "MessageCircle", color: "primary" }, 
-    { name: "TikTok", count: 89, icon: "Music", color: "secondary" }, 
-    { name: "Instagram", count: 156, icon: "Camera", color: "success" }, 
-    { name: "YouTube", count: 203, icon: "Play", color: "error" }, 
-    { name: "Business", count: 78, icon: "TrendingUp", color: "warning" }, 
-    { name: "Tools & Resources", count: 45, icon: "Tool", color: "info" }
+const categories = [
+    { name: "일반 토론", count: 124, icon: "MessageCircle", color: "primary" }, 
+    { name: "틱톡", count: 89, icon: "Music", color: "secondary" }, 
+    { name: "인스타그램", count: 156, icon: "Camera", color: "success" }, 
+    { name: "유튜브", count: 203, icon: "Play", color: "error" }, 
+    { name: "비즈니스", count: 78, icon: "TrendingUp", color: "warning" }, 
+    { name: "도구 및 리소스", count: 45, icon: "Tool", color: "info" }
   ];
 
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-display-sm gradient-text">Community</h1>
+<h1 className="text-display-sm gradient-text">커뮤니티</h1>
         <Button variant="primary" size="md">
           <ApperIcon name="Plus" className="w-4 h-4 mr-2" />
-          New Discussion
+          새 토론
         </Button>
       </div>
 
@@ -103,7 +104,7 @@ function Community() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <ApperIcon name="MessageSquare" className="w-5 h-5" />
-                Recent Discussions
+최근 토론
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -130,27 +131,27 @@ function Community() {
                       {discussion.isHot && (
                         <Badge variant="error" size="sm">
                           <ApperIcon name="Flame" className="w-3 h-3 mr-1" />
-                          Hot
+인기
                         </Badge>
                       )}
                     </div>
                     
                     <div className="flex items-center gap-4 text-sm text-gray-500">
-                      <span>by {discussion.author}</span>
-                      <Badge variant={discussion.category === 'TikTok' ? 'secondary' : discussion.category === 'Instagram' ? 'success' : 'primary'} size="sm">
+<span>작성자: {discussion.author}</span>
+                      <Badge variant={discussion.category === '틱톡' ? 'secondary' : discussion.category === '인스타그램' ? 'success' : 'primary'} size="sm">
                         {discussion.category}
                       </Badge>
-                      <span>{formatDistanceToNow(discussion.timestamp)} ago</span>
+                      <span>{formatDistanceToNow(discussion.timestamp, { addSuffix: true, locale: ko })}</span>
                     </div>
                     
                     <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
                       <span className="flex items-center gap-1">
-                        <ApperIcon name="MessageCircle" className="w-4 h-4" />
-                        {discussion.replies} replies
+<ApperIcon name="MessageCircle" className="w-4 h-4" />
+                        {discussion.replies}개 답글
                       </span>
                       <span className="flex items-center gap-1">
                         <ApperIcon name="Heart" className="w-4 h-4" />
-                        {discussion.likes} likes
+                        {discussion.likes}개 좋아요
                       </span>
                     </div>
                   </div>
@@ -165,7 +166,7 @@ function Community() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <ApperIcon name="Users" className="w-5 h-5" />
-                Top Members
+상위 멤버
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -188,7 +189,7 @@ function Community() {
                   </Avatar>
                   <div className="flex-1 min-w-0">
                     <h4 className="font-medium text-sm truncate">{member.name}</h4>
-                    <p className="text-xs text-gray-500">{member.points} points</p>
+<p className="text-xs text-gray-500">{member.points} 포인트</p>
                     <Badge variant="success" size="xs" className="mt-1">
                       {member.badge}
                     </Badge>
@@ -201,8 +202,8 @@ function Community() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <ApperIcon name="Grid" className="w-5 h-5" />
-                Categories
+<ApperIcon name="Grid" className="w-5 h-5" />
+                카테고리
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">

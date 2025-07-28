@@ -24,7 +24,7 @@ const Header = ({ className, onMobileMenuToggle, ...props }) => {
         <div className="hidden sm:flex items-center space-x-2 text-body-sm text-gray-600">
           <ApperIcon name="Home" size={16} />
           <ApperIcon name="ChevronRight" size={14} />
-          <span className="font-medium text-gray-900">Dashboard</span>
+<span className="font-medium text-gray-900">대시보드</span>
         </div>
 
         {/* Right Side */}
@@ -38,12 +38,12 @@ const Header = ({ className, onMobileMenuToggle, ...props }) => {
           {/* User Profile */}
           <div className="flex items-center space-x-3">
             <div className="hidden sm:block text-right">
-              <p className="text-body-sm font-medium text-gray-900">Alex Johnson</p>
-              <p className="text-xs text-gray-600">Content Creator</p>
+<p className="text-body-sm font-medium text-gray-900">김준태</p>
+              <p className="text-xs text-gray-600">콘텐츠 크리에이터</p>
             </div>
             <Avatar className="h-10 w-10">
-              <AvatarImage src="/api/placeholder/40/40" alt="Alex Johnson" />
-              <AvatarFallback>AJ</AvatarFallback>
+              <AvatarImage src="/api/placeholder/40/40" alt="김준태" />
+              <AvatarFallback>김준</AvatarFallback>
             </Avatar>
           </div>
         </div>

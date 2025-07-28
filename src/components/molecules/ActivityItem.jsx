@@ -2,7 +2,7 @@ import React from "react";
 import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
 import { formatDistanceToNow } from "date-fns";
-
+import { ko } from "date-fns/locale";
 const ActivityItem = ({ 
   className,
   activity,
@@ -38,6 +38,12 @@ const ActivityItem = ({
         <p className="text-body-sm text-gray-600">{activity.courseName}</p>
         <p className="text-xs text-gray-500 mt-1">
           {formatDistanceToNow(new Date(activity.timestamp), { addSuffix: true })}
+</p>
+        <p className="text-xs text-gray-500">
+          {formatDistanceToNow(new Date(activity.timestamp), { 
+            addSuffix: true,
+            locale: ko 
+          })}
         </p>
       </div>
     </div>

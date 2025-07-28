@@ -6,27 +6,27 @@ import ApperIcon from "@/components/ApperIcon";
 
 const Courses = () => {
   const coursePaths = [
-    {
-      title: "Content Creation Fundamentals",
-      description: "Master the basics of creating engaging content",
+{
+      title: "콘텐츠 제작 기초",
+      description: "매력적인 콘텐츠 제작의 기본기를 마스터하세요",
       courseCount: 8,
-      difficulty: "Beginner",
+      difficulty: "초급",
       icon: "PenTool",
       color: "success"
     },
     {
-      title: "Social Media Mastery",
-      description: "Advanced strategies for social media growth",
+      title: "소셜 미디어 마스터",
+      description: "소셜 미디어 성장을 위한 고급 전략",
       courseCount: 12,
-      difficulty: "Intermediate",
+      difficulty: "중급",
       icon: "Share2",
       color: "warning"
     },
     {
-      title: "Influencer Business",
-      description: "Monetize your influence and build a brand",
+      title: "인플루언서 비즈니스",
+      description: "영향력을 수익화하고 브랜드를 구축하세요",
       courseCount: 6,
-      difficulty: "Advanced",
+      difficulty: "고급",
       icon: "TrendingUp",
       color: "error"
     }
@@ -37,16 +37,16 @@ const Courses = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="font-display text-display-md text-gray-900 mb-2">Course Library</h1>
+<h1 className="font-display text-display-md text-gray-900 mb-2">코스 라이브러리</h1>
           <p className="text-body-lg text-gray-600">
-            Discover and learn from our comprehensive collection of content creation courses
+            포괄적인 콘텐츠 제작 코스 컬렉션에서 발견하고 학습하세요
           </p>
         </div>
       </div>
 
       {/* Learning Paths */}
       <div>
-        <h2 className="font-display text-heading-lg text-gray-900 mb-6">Learning Paths</h2>
+<h2 className="font-display text-heading-lg text-gray-900 mb-6">학습 경로</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {coursePaths.map((path, index) => (
             <Card key={index} className="hover:scale-[1.02] transition-transform duration-200">
@@ -65,7 +65,7 @@ const Courses = () => {
                 <p className="text-body-sm text-gray-600 mb-4">{path.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-body-sm text-gray-500">
-                    {path.courseCount} courses
+{path.courseCount}개 코스
                   </span>
                   <ApperIcon name="ArrowRight" size={16} className="text-primary" />
                 </div>
@@ -78,10 +78,10 @@ const Courses = () => {
       {/* All Courses */}
       <div>
         <div className="flex items-center justify-between mb-6">
-          <h2 className="font-display text-heading-lg text-gray-900">All Courses</h2>
+<h2 className="font-display text-heading-lg text-gray-900">모든 코스</h2>
           <div className="flex items-center space-x-2 text-body-sm text-gray-600">
             <ApperIcon name="BookOpen" size={16} />
-            <span>24 courses available</span>
+            <span>24개 코스 이용 가능</span>
           </div>
         </div>
         <CourseGrid />

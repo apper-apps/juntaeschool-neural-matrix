@@ -3,35 +3,35 @@ import { cn } from "@/utils/cn";
 import StatCard from "@/components/molecules/StatCard";
 
 const DashboardStats = ({ className, stats, ...props }) => {
-  const defaultStats = [
+const defaultStats = [
     {
-      title: "Courses Enrolled",
+      title: "등록한 코스",
       value: "12",
-      change: "+2 this month",
+      change: "+2 이번 달",
       changeType: "positive",
       icon: "BookOpen",
       gradient: "primary"
     },
     {
-      title: "Lessons Completed",
+      title: "완료한 강의",
       value: "89",
-      change: "+15 this week",
+      change: "+15 이번 주",
       changeType: "positive", 
       icon: "CheckCircle",
       gradient: "success"
     },
     {
-      title: "Learning Streak",
-      value: "7 days",
-      change: "Keep it up!",
+      title: "학습 연속일",
+      value: "7일",
+      change: "계속 유지하세요!",
       changeType: "positive",
       icon: "Flame",
       gradient: "secondary"
     },
     {
-      title: "Certificates Earned",
+      title: "획득한 수료증",
       value: "3",
-      change: "+1 this month",
+      change: "+1 이번 달",
       changeType: "positive",
       icon: "Award",
       gradient: "warning"
