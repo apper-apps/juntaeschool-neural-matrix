@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { cn } from "@/utils/cn";
 
 const Avatar = React.forwardRef(({ className, ...props }, ref) => (
@@ -13,20 +13,20 @@ const Avatar = React.forwardRef(({ className, ...props }, ref) => (
 ));
 Avatar.displayName = "Avatar";
 
-const AvatarImage = React.forwardRef(({ className, ...props }, ref) => (
+const AvatarImage = React.forwardRef(({ className, onError, ...props }, ref) => (
   <img
     ref={ref}
     className={cn("aspect-square h-full w-full object-cover", className)}
+    onError={onError}
     {...props}
   />
 ));
-AvatarImage.displayName = "AvatarImage";
 
 const AvatarFallback = React.forwardRef(({ className, ...props }, ref) => (
   <div
     ref={ref}
     className={cn(
-      "flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-primary to-blue-600 text-white font-medium text-sm",
+      "flex h-full w-full items-center justify-center rounded-full bg-gray-100 text-gray-600 text-sm font-medium",
       className
     )}
     {...props}
