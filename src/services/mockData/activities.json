@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "type": "course_completed",
+    "courseName": "Advanced TikTok Strategies",
+    "timestamp": "2024-01-15T08:30:00Z",
+    "description": "Completed course: Advanced TikTok Strategies"
+  },
+  {
+    "Id": 2,
+    "type": "lesson_completed",
+    "courseName": "Content Creation Fundamentals",
+    "timestamp": "2024-01-15T07:15:00Z",
+    "description": "Finished lesson: Creating Your First Viral Video"
+  },
+  {
+    "Id": 3,
+    "type": "quiz_passed",
+    "courseName": "Visual Storytelling",
+    "timestamp": "2024-01-14T16:45:00Z",
+    "description": "Passed quiz: Color Theory and Visual Impact"
+  },
+  {
+    "Id": 4,
+    "type": "course_started",
+    "courseName": "Instagram Growth Hacks",
+    "timestamp": "2024-01-14T14:20:00Z",
+    "description": "Started new course: Instagram Growth Hacks"
+  },
+  {
+    "Id": 5,
+    "type": "lesson_completed",
+    "courseName": "Personal Branding Essentials",
+    "timestamp": "2024-01-14T11:30:00Z",
+    "description": "Completed lesson: Defining Your Brand Voice"
+  },
+  {
+    "Id": 6,
+    "type": "course_completed",
+    "courseName": "Personal Branding Essentials",
+    "timestamp": "2024-01-13T15:00:00Z",
+    "description": "Completed course: Personal Branding Essentials"
+  },
+  {
+    "Id": 7,
+    "type": "lesson_completed",
+    "courseName": "Analytics & Growth Tracking",
+    "timestamp": "2024-01-13T10:45:00Z",
+    "description": "Finished lesson: Understanding Your Metrics"
+  },
+  {
+    "Id": 8,
+    "type": "quiz_passed",
+    "courseName": "Content Creation Fundamentals",
+    "timestamp": "2024-01-12T17:30:00Z",
+    "description": "Passed quiz: Content Planning Strategies"
+  },
+  {
+    "Id": 9,
+    "type": "lesson_completed",
+    "courseName": "YouTube Content Mastery",
+    "timestamp": "2024-01-12T13:15:00Z",
+    "description": "Completed lesson: YouTube SEO Optimization"
+  },
+  {
+    "Id": 10,
+    "type": "course_started",
+    "courseName": "Monetization Strategies",
+    "timestamp": "2024-01-11T09:00:00Z",
+    "description": "Started new course: Monetization Strategies"
+  }
+]

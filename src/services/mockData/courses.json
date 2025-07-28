@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "title": "Content Creation Fundamentals",
+    "description": "Learn the essential skills for creating engaging and viral content across all social media platforms. Master storytelling, visual design, and audience engagement.",
+    "instructor": "Sarah Martinez",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 120,
+    "lessonsCount": 12,
+    "category": "Fundamentals",
+    "difficulty": "Beginner"
+  },
+  {
+    "Id": 2,
+    "title": "Advanced TikTok Strategies",
+    "description": "Dive deep into TikTok's algorithm and discover proven strategies for creating viral content that resonates with your target audience.",
+    "instructor": "Jake Thompson",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 90,
+    "lessonsCount": 8,
+    "category": "TikTok",
+    "difficulty": "Advanced"
+  },
+  {
+    "Id": 3,
+    "title": "Instagram Growth Hacks",
+    "description": "Unlock the secrets to explosive Instagram growth with proven tactics for Reels, Stories, and feed content that drives engagement.",
+    "instructor": "Emma Chen",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 105,
+    "lessonsCount": 10,
+    "category": "Instagram",
+    "difficulty": "Intermediate"
+  },
+  {
+    "Id": 4,
+    "title": "YouTube Content Mastery",
+    "description": "Build a successful YouTube channel from scratch with expert techniques for scripting, filming, editing, and optimizing for the algorithm.",
+    "instructor": "David Rodriguez",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 180,
+    "lessonsCount": 15,
+    "category": "YouTube",
+    "difficulty": "Intermediate"
+  },
+  {
+    "Id": 5,
+    "title": "Personal Branding Essentials",
+    "description": "Develop a powerful personal brand that stands out in the crowded digital space and attracts your ideal audience consistently.",
+    "instructor": "Lisa Park",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 75,
+    "lessonsCount": 6,
+    "category": "Branding",
+    "difficulty": "Beginner"
+  },
+  {
+    "Id": 6,
+    "title": "Monetization Strategies",
+    "description": "Turn your content creation passion into a profitable business with multiple revenue streams and sustainable monetization methods.",
+    "instructor": "Michael Johnson",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 135,
+    "lessonsCount": 11,
+    "category": "Business",
+    "difficulty": "Advanced"
+  },
+  {
+    "Id": 7,
+    "title": "Visual Storytelling",
+    "description": "Master the art of telling compelling stories through visuals, graphics, and video content that captivates and converts your audience.",
+    "instructor": "Sophia Williams",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 95,
+    "lessonsCount": 9,
+    "category": "Design",
+    "difficulty": "Intermediate"
+  },
+  {
+    "Id": 8,
+    "title": "Community Building",
+    "description": "Learn how to build and nurture an engaged community around your brand that becomes your most powerful marketing asset.",
+    "instructor": "Alex Rivera",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 110,
+    "lessonsCount": 8,
+    "category": "Community",
+    "difficulty": "Intermediate"
+  },
+  {
+    "Id": 9,
+    "title": "Analytics & Growth Tracking",
+    "description": "Understand your metrics and use data-driven insights to optimize your content strategy and accelerate your growth.",
+    "instructor": "Jennifer Lee",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 85,
+    "lessonsCount": 7,
+    "category": "Analytics",
+    "difficulty": "Beginner"
+  },
+  {
+    "Id": 10,
+    "title": "Collaboration & Partnerships",
+    "description": "Discover how to identify, approach, and successfully collaborate with other creators and brands to expand your reach.",
+    "instructor": "Ryan Cooper",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 100,
+    "lessonsCount": 8,
+    "category": "Partnerships",
+    "difficulty": "Advanced"
+  },
+  {
+    "Id": 11,
+    "title": "Content Planning & Strategy",
+    "description": "Develop a systematic approach to content planning that ensures consistent, high-quality output that aligns with your goals.",
+    "instructor": "Maya Patel",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 90,
+    "lessonsCount": 9,
+    "category": "Strategy",
+    "difficulty": "Intermediate"
+  },
+  {
+    "Id": 12,
+    "title": "Live Streaming Mastery",
+    "description": "Master the art of live streaming across platforms to build deeper connections with your audience and increase engagement.",
+    "instructor": "Chris Anderson",
+    "thumbnail": "/api/placeholder/300/200",
+    "duration": 80,
+    "lessonsCount": 6,
+    "category": "Live Streaming",
+    "difficulty": "Beginner"
+  }
+]

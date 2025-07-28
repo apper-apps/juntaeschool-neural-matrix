@@ -1,0 +1,72 @@
+[
+  {
+    "courseId": "1",
+    "completedLessons": 9,
+    "totalLessons": 12,
+    "lastAccessed": "2024-01-15T10:30:00Z",
+    "percentComplete": 75
+  },
+  {
+    "courseId": "2",
+    "completedLessons": 8,
+    "totalLessons": 8,
+    "lastAccessed": "2024-01-14T15:45:00Z",
+    "percentComplete": 100
+  },
+  {
+    "courseId": "3",
+    "completedLessons": 4,
+    "totalLessons": 10,
+    "lastAccessed": "2024-01-13T09:15:00Z",
+    "percentComplete": 40
+  },
+  {
+    "courseId": "4",
+    "completedLessons": 2,
+    "totalLessons": 15,
+    "lastAccessed": "2024-01-12T14:20:00Z",
+    "percentComplete": 13
+  },
+  {
+    "courseId": "5",
+    "completedLessons": 6,
+    "totalLessons": 6,
+    "lastAccessed": "2024-01-11T11:00:00Z",
+    "percentComplete": 100
+  },
+  {
+    "courseId": "6",
+    "completedLessons": 3,
+    "totalLessons": 11,
+    "lastAccessed": "2024-01-10T16:30:00Z",
+    "percentComplete": 27
+  },
+  {
+    "courseId": "7",
+    "completedLessons": 7,
+    "totalLessons": 9,
+    "lastAccessed": "2024-01-09T13:45:00Z",
+    "percentComplete": 78
+  },
+  {
+    "courseId": "8",
+    "completedLessons": 0,
+    "totalLessons": 8,
+    "lastAccessed": "2024-01-08T10:00:00Z",
+    "percentComplete": 0
+  },
+  {
+    "courseId": "9",
+    "completedLessons": 5,
+    "totalLessons": 7,
+    "lastAccessed": "2024-01-07T12:15:00Z",
+    "percentComplete": 71
+  },
+  {
+    "courseId": "10",
+    "completedLessons": 1,
+    "totalLessons": 8,
+    "lastAccessed": "2024-01-06T17:30:00Z",
+    "percentComplete": 13
+  }
+]
